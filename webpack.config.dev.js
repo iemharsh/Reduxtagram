@@ -48,8 +48,9 @@ export default {
       {test: /\.(jpe?g|png|gif)$/i, loader: 'file?name=[name].[ext]'},
       {test: /\.ico$/, loader: 'file?name=[name].[ext]'},
       {test: /(\.css|\.scss)$/, loaders: ['style', 'css?sourceMap', 'postcss', 'sass?sourceMap']},
-      {test: /\.json$/, loader: "json"}
-    ]
+      {test: /\.json$/, loader: "json"},
+      {test: /\.styl$/, loader: 'style-loader!css-loader!stylus-loader'}
+      ]
   },
   postcss: ()=> [autoprefixer]
 };

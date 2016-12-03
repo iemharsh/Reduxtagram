@@ -86,6 +86,8 @@
     "sinon": "1.17.6",
     "sinon-chai": "2.8.0",
     "style-loader": "0.13.1",
+    "stylus": "0.54.5",
+    "stylus-loader": "2.4.0",
     "url-loader": "0.5.7",
     "webpack": "1.13.2",
     "webpack-bundle-analyzer": "1.5.3",
