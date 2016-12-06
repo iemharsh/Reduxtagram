@@ -31,6 +31,7 @@
   "dependencies": {
     "object-assign": "4.1.0",
     "react": "15.3.2",
+    "react-addons-css-transition-group": "15.4.1",
     "react-dom": "15.3.2",
     "react-redux": "4.4.5",
     "react-router": "2.8.1",
@@ -79,6 +80,7 @@
     "postcss-loader": "1.0.0",
     "prompt": "1.0.0",
     "react-addons-test-utils": "15.3.2",
+    "redux-devtools-extension": "1.0.0",
     "redux-immutable-state-invariant": "1.2.4",
     "replace": "0.3.0",
     "rimraf": "2.5.4",

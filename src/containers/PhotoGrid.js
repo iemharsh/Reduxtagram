@@ -1,13 +1,19 @@
 import React from 'react';
+import Photo from './Photo';
 
-class PhotoGrid extends React.Component {
-  render() {
-    return(
-      <div>
-        PhotoGrid Component!!
+const PhotoGrid = (props) =>  {
+    return (
+      <div className="photo-grid">
+        {
+          props.posts.map((post, index) => {
+            return (
+              <Photo {...props} key={index} post={post} index={index} />
+            );
+          })
+        }
       </div>
     );
-  }
-}
+};
+
 
 export default PhotoGrid;

@@ -15,6 +15,7 @@ export function addComment(postId, author, comment) {
 }
 
 export function removeComment(index, postId) {
+  console.log('Remove COmment dispatched');
   return {
     type: 'REMOVE_COMMENT',
     index,
